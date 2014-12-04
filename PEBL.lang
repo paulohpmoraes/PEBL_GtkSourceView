@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+ PEBL code highlighting for GtkSourceView.
+
+ Author: Paulo Henrique Paiva de Moraes <paulohpmoraes@gmail.com>
+
+-->
+
+<language id="pebl" _name="PEBL" version="2.0" _section="Script">
+  <metadata>
+    <property name="mimetypes">text/x-PEBL</property>
+    <property name="globs">*.pbl</property>
+    <property name="line-comment-start">#</property>
+  </metadata>
+
+  <styles>
+    <style id="keyword"             _name="Keyword"               map-to="def:keyword"/>
+    <style id="functions"           _name="Functions"             map-to="def:function"/>
+    <style id="assignment-operator" _name="Assignment Operator"   map-to="def:operator"/>
+    <style id="delimiter"           _name="Delimiter"             map-to="def:operator"/>
+    <style id="special-variables"   _name="Special Variables"     map-to="def:type"/>
+  </styles>
+
+  <definitions>
+
+    <context id="keywords" style-ref="keyword">
+      <keyword>and</keyword>
+      <keyword>break</keyword>
+      <keyword>not</keyword>
+      <keyword>or</keyword>
+      <keyword>while</keyword>
+      <keyword>loop</keyword>
+      <keyword>if</keyword>
+      <keyword>else</keyword>
+      <keyword>elseif</keyword>
+      <keyword>define</keyword>
+      <keyword>return</keyword>
+    </context>
+
+    <context id="functions" style-ref="functions">
+      <keyword>Log10</keyword>
+      <keyword>Log2</keyword>
+      <keyword>Ln</keyword>
+      <keyword>LogN</keyword>
+      <keyword>Exp</keyword>
+      <keyword>Pow</keyword>
+      <keyword>Sqrt</keyword>
+      <keyword>NthRoot</keyword>
+      <keyword>Tan</keyword>
+      <keyword>Sin</keyword>
+      <keyword>Cos</keyword>
+      <keyword>ATan</keyword>
+      <keyword>ASin</keyword>
+      <keyword>ACos</keyword>
+      <keyword>DegToRad</keyword>
+      <keyword>RadToDeg</keyword>
+      <keyword>Round</keyword>
+      <keyword>Floor</keyword>
+      <keyword>Ceiling</keyword>
+      <keyword>AbsFloor</keyword>
+      <keyword>Mod</keyword>
+      <keyword>Div</keyword>
+      <keyword>ToInteger</keyword>
+      <keyword>ToFloat</keyword>
+      <keyword>ToNumber</keyword>
+      <keyword>ToString</keyword>
+      <keyword>Sign</keyword>
+      <keyword>Abs</keyword>
+      <keyword>CumNormInv</keyword>
+      <keyword>NormalDensity</keyword>
+      <keyword>SDTDPrime</keyword>
+      <keyword>SDTBeta</keyword>
+      <keyword>Order</keyword>
+      <keyword>Rank</keyword>
+      <keyword>Median</keyword>
+      <keyword>Min</keyword>
+      <keyword>Max</keyword>
+      <keyword>StDev</keyword>
+      <keyword>Sum</keyword>
+      <keyword>Median</keyword>
+      <keyword>Quantile</keyword>
+      <keyword>SummaryStats</keyword>
+      <keyword>SeedRNG</keyword>
+      <keyword>RandomizeTimer</keyword>
+      <keyword>Random</keyword>
+      <keyword>RandomDiscrete</keyword>
+      <keyword>RandomUniform</keyword>
+      <keyword>RandomNormal</keyword>
+      <keyword>RandomExponential</keyword>
+      <keyword>RandomLogistic</keyword>
+      <keyword>RandomLogNormal</keyword>
+      <keyword>RandomBinomial</keyword>
+      <keyword>RandomBernoulli</keyword>
+      <keyword>ZoomPoints</keyword>
+      <keyword>ReflectPoints</keyword>
+      <keyword>RotatePoints</keyword>
+      <keyword>GetAngle</keyword>
+      <keyword>Dist</keyword>
+      <keyword>ToRight</keyword>
+      <keyword>GetAngle3</keyword>
+      <keyword>SegmentsIntersect</keyword>
+      <keyword>NonOverlapLayout</keyword>
+      <keyword>LayoutGrid</keyword>
+      <keyword>Print</keyword>
+      <keyword>Print_</keyword>
+      <keyword>PrintList</keyword>
+      <keyword>Format</keyword>
+      <keyword>ZeroPad</keyword>
+      <keyword>FileOpenRead</keyword>
+      <keyword>FileOpenWrite</keyword>
+      <keyword>FileOpenOverwrite</keyword>
+      <keyword>FileOpenAppend</keyword>
+      <keyword>FileClose</keyword>
+      <keyword>FilePrint</keyword>
+      <keyword>FilePrint_</keyword>
+      <keyword>FilePrintList</keyword>
+      <keyword>FileReadCharacter</keyword>
+      <keyword>FileReadWord</keyword>
+      <keyword>FileReadLine</keyword>
+      <keyword>FileReadList</keyword>
+      <keyword>FileReadTable</keyword>
+      <keyword>ReadCSV</keyword>
+      <keyword>FileReadText</keyword>
+      <keyword>EndOfLine</keyword>
+      <keyword>EndOfFile</keyword>
+      <keyword>GetDirectoryListing</keyword>
+      <keyword>FileExists</keyword>
+      <keyword>IsDirectory</keyword>
+      <keyword>MakeDirectory</keyword>
+      <keyword>RemoveFile</keyword>
+      <keyword>AppendFile</keyword>
+      <keyword>DeleteFile</keyword>
+      <keyword>ConnectToIP</keyword>
+      <keyword>ConnectToHost</keyword>
+      <keyword>WaitForNetworkConnection</keyword>
+      <keyword>CloseNetworkConnection</keyword>
+      <keyword>SendData</keyword>
+      <keyword>GetData</keyword>
+      <keyword>ConvertIPString</keyword>
+      <keyword>OpenNetworkListener</keyword>
+      <keyword>CheckForNetworkConnection</keyword>
+      <keyword>WritePNG</keyword>
+      <keyword>GetNumJoysticks</keyword>
+      <keyword>OpenJoystick</keyword>
+      <keyword>GetNumJoystickAxes</keyword>
+      <keyword>GetNumJoystickBalls</keyword>
+      <keyword>GetNumJoystickButtons</keyword>
+      <keyword>GetNumJoystickHats</keyword>
+      <keyword>GetJoystickAxisState</keyword>
+      <keyword>GetJoystickHatState</keyword>
+      <keyword>GetJoystickButtonState</keyword>
+      <keyword>GetJoystickBallState</keyword>
+      <keyword>OpenCOMPort</keyword>
+      <keyword>COMPortGetByte</keyword>
+      <keyword>COMPortSendByte</keyword>
+      <keyword>OpenPPort</keyword>
+      <keyword>SetPPortMode</keyword>
+      <keyword>SetPPortState</keyword>
+      <keyword>GetPPortState</keyword>
+      <keyword>MakeWindow</keyword>
+      <keyword>MakeImage</keyword>
+      <keyword>MakeLabel</keyword>
+      <keyword>MakeTextBox</keyword>
+      <keyword>MakeCanvas</keyword>
+      <keyword>ResetCanvas</keyword>
+      <keyword>EasyLabel</keyword>
+      <keyword>EasyTextBox</keyword>
+      <keyword>MakeColor</keyword>
+      <keyword>MakeColorRGB</keyword>
+      <keyword>RGBToHSV</keyword>
+      <keyword>MakeFont</keyword>
+      <keyword>SetCursorPosition</keyword>
+      <keyword>GetCursorPosition</keyword>
+      <keyword>SetEditable</keyword>
+      <keyword>GetTextBoxCursorFromClick</keyword>
+      <keyword>GetText</keyword>
+      <keyword>GetInput</keyword>
+      <keyword>SetText</keyword>
+      <keyword>SetFont</keyword>
+      <keyword>Move</keyword>
+      <keyword>MoveCorner</keyword>
+      <keyword>GetSize</keyword>
+      <keyword>AddObject</keyword>
+      <keyword>RemoveObject</keyword>
+      <keyword>Show</keyword>
+      <keyword>Hide</keyword>
+      <keyword>ShowCursor</keyword>
+      <keyword>GetMouseCursorPosition</keyword>
+      <keyword>GetMouseState</keyword>
+      <keyword>SetMouseCursorPosition</keyword>
+      <keyword>Draw</keyword>
+      <keyword>DrawFor</keyword>
+      <keyword>Circle</keyword>
+      <keyword>Ellipse</keyword>
+      <keyword>Square</keyword>
+      <keyword>Rectangle</keyword>
+      <keyword>Line</keyword>
+      <keyword>PrintProperties</keyword>
+      <keyword>Polygon</keyword>
+      <keyword>Bezier</keyword>
+      <keyword>BlockE</keyword>
+      <keyword>Plus</keyword>
+      <keyword>MakeStarPoints</keyword>
+      <keyword>MakeNGonPoints</keyword>
+      <keyword>ThickLine</keyword>
+      <keyword>MakeAttneave</keyword>
+      <keyword>ConvexHull</keyword>
+      <keyword>KaneszaSquare</keyword>
+      <keyword>KaneszaPolygon</keyword>
+      <keyword>Inside</keyword>
+      <keyword>SetPixel</keyword>
+      <keyword>SetPoint</keyword>
+      <keyword>GetPixelColor</keyword>
+      <keyword>MakeGabor</keyword>
+      <keyword>LoadSound</keyword>
+      <keyword>PlayForeground</keyword>
+      <keyword>PlayBackground</keyword>
+      <keyword>Stop</keyword>
+      <keyword>MakeSineWave</keyword>
+      <keyword>MakeAudioInputBuffer</keyword>
+      <keyword>SaveAudioToWaveFile</keyword>
+      <keyword>GetVocalResponseTime</keyword>
+      <keyword>LoadMovie</keyword>
+      <keyword>LoadAudioFile</keyword>
+      <keyword>PlayMovie</keyword>
+      <keyword>StartPlayback</keyword>
+      <keyword>PausePlayback</keyword>
+      <keyword>GetTime</keyword>
+      <keyword>Wait</keyword>
+      <keyword>IsKeyDown</keyword>
+      <keyword>IsKeyUp</keyword>
+      <keyword>IsAnyKeyDown</keyword>
+      <keyword>WaitForKeyDown</keyword>
+      <keyword>WaitForAnyKeyDown</keyword>
+      <keyword>WaitForKeyUp</keyword>
+      <keyword>WaitForAllKeysUp</keyword>
+      <keyword>WaitForAnyKeyDownWithTimeout</keyword>
+      <keyword>WaitForKeyListDown</keyword>
+      <keyword>WaitForKeyPress</keyword>
+      <keyword>WaitForAnyKeyPress</keyword>
+      <keyword>WaitForKeyRelease</keyword>
+      <keyword>WaitForListKeyPress</keyword>
+      <keyword>WaitForListKeyPressWithTimeout</keyword>
+      <keyword>WaitForMouseButton</keyword>
+      <keyword>WaitForMouseClickWithTimeout</keyword>
+      <keyword>WaitForClickOnTarget</keyword>
+      <keyword>WaitForClickOnTargetWithTimeout</keyword>
+      <keyword>WaitForDownClick</keyword>
+      <keyword>RegisterEvent</keyword>
+      <keyword>StartEventLoop</keyword>
+      <keyword>ClearEventLoop</keyword>
+      <keyword>SignalFatalError</keyword>
+      <keyword>TranslateKeyCode</keyword>
+      <keyword>TimeStamp</keyword>
+      <keyword>GetPEBLVersion</keyword>
+      <keyword>GetSystemType</keyword>
+      <keyword>GetVideoModes</keyword>
+      <keyword>GetCurrentScreenResolution</keyword>
+      <keyword>SystemCall</keyword>
+      <keyword>LaunchFile</keyword>
+      <keyword>GetNIMHDemographics</keyword>
+      <keyword>GetSubNum</keyword>
+      <keyword>MessageBox</keyword>
+      <keyword>GetEasyInput</keyword>
+      <keyword>GetEasyChoice</keyword>
+      <keyword>CountDown</keyword>
+      <keyword>IsAudioOut</keyword>
+      <keyword>IsCanvas</keyword>
+      <keyword>IsColor</keyword>
+      <keyword>IsFileStream</keyword>
+      <keyword>IsFloat</keyword>
+      <keyword>IsFont</keyword>
+      <keyword>IsImage</keyword>
+      <keyword>IsInteger</keyword>
+      <keyword>IsLabel</keyword>
+      <keyword>IsList</keyword>
+      <keyword>IsNumber</keyword>
+      <keyword>IsTextBox</keyword>
+      <keyword>IsText</keyword>
+      <keyword>IsShape</keyword>
+      <keyword>IsString</keyword>
+      <keyword>IsWidget</keyword>
+      <keyword>IsWindow</keyword>
+      <keyword>Shuffle</keyword>
+      <keyword>ShuffleRepeat</keyword>
+      <keyword>ShuffleWithoutAdjacents</keyword>
+      <keyword>Repeat</keyword>
+      <keyword>RepeatList</keyword>
+      <keyword>Sequence</keyword>
+      <keyword>ChooseN</keyword>
+      <keyword>Sample</keyword>
+      <keyword>SampleN</keyword>
+      <keyword>SampleNWithReplacement</keyword>
+      <keyword>DesignLatinSquare</keyword>
+      <keyword>LatinSquare</keyword>
+      <keyword>DesignGrecoLatinSquare</keyword>
+      <keyword>DesignBalancedSampling</keyword>
+      <keyword>DesignFullCounterbalance</keyword>
+      <keyword>CrossFactorWithoutDuplicates</keyword>
+      <keyword>Rotate</keyword>
+      <keyword>FoldList</keyword>
+      <keyword>Flatten</keyword>
+      <keyword>FlattenN</keyword>
+      <keyword>Length</keyword>
+      <keyword>First</keyword>
+      <keyword>Last</keyword>
+      <keyword>Merge</keyword>
+      <keyword>Append</keyword>
+      <keyword>PushOnEnd</keyword>
+      <keyword>List</keyword>
+      <keyword>Sort</keyword>
+      <keyword>SortBy</keyword>
+      <keyword>Nth</keyword>
+      <keyword>Subset</keyword>
+      <keyword>SetElement</keyword>
+      <keyword>Match</keyword>
+      <keyword>Filter</keyword>
+      <keyword>Levels</keyword>
+      <keyword>Rest</keyword>
+      <keyword>ExtractListItems</keyword>
+      <keyword>IsMember</keyword>
+      <keyword>Replace</keyword>
+      <keyword>Lookup</keyword>
+      <keyword>Transpose</keyword>
+      <keyword>SubList</keyword>
+      <keyword>RemoveSubset</keyword>
+      <keyword>ListToString</keyword>
+      <keyword>Insert</keyword>
+      <keyword>ListBy</keyword>
+      <keyword>CR</keyword>
+      <keyword>Tab</keyword>
+      <keyword>Format</keyword>
+      <keyword>Enquote</keyword>
+      <keyword>Uppercase</keyword>
+      <keyword>Lowercase</keyword>
+      <keyword>ReplaceChar</keyword>
+      <keyword>SplitString</keyword>
+      <keyword>StingLength</keyword>
+      <keyword>SubString</keyword>
+      <keyword>FindInString</keyword>
+      <keyword>StripSpace</keyword>
+      <keyword>StripQuotes</keyword>
+    </context>
+
+    <context id="assignment-operator" style-ref="assignment-operator">
+      <match>(&lt;)-</match>
+    </context>
+
+    <context id="delimiters" style-ref="delimiter">
+      <match>[\)\(]+|[\{\}]+|[][]+</match>
+    </context>
+
+    <context id="special-variables" style-ref="special-variables">
+      <keyword>gKeepLooping</keyword>
+      <keyword>gSleepEasy</keyword>
+      <keyword>gVideoWidth</keyword>
+      <keyword>gVideoHeight</keyword>
+      <keyword>gVideoDepth</keyword>
+      <keyword>gSubNum</keyword>
+      <keyword>gLanguage</keyword>
+      <keyword>gQuote</keyword>
+      <keyword>gClick</keyword>
+      <keyword>gPEBLBaseFont</keyword>
+      <keyword>gPEBLBaseFontMono</keyword>
+      <keyword>gPEBLBaseFontSerif</keyword>
+    </context>
+
+    <context id="pebl">
+      <include>
+        <context ref="def:shell-like-comment"/>
+        <context ref="def:string"/>
+        <context ref="def:single-quoted-string"/>
+        <context ref="keywords"/>
+        <context ref="functions"/>
+        <context ref="assignment-operator"/>
+        <context ref="delimiters"/>
+        <context ref="special-variables"/>
+      </include>
+    </context>
+    
+  </definitions>
+  
+</language>
