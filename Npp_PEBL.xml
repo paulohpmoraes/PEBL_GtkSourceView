@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="PEBL" ext=".pbl" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="no" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00# 01 02 03 04</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">+ - / * &lt;- ; . &lt; &gt; &lt;= &gt;= == &lt;&gt; != ~= ( ) { } [ ]</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">and&#x000D;&#x000A;break&#x000D;&#x000A;not&#x000D;&#x000A;or&#x000D;&#x000A;while&#x000D;&#x000A;loop&#x000D;&#x000A;if&#x000D;&#x000A;else&#x000D;&#x000A;elseif&#x000D;&#x000A;else&#x000D;&#x000A;define&#x000D;&#x000A;return</Keywords>
+            <Keywords name="Keywords2">Log10&#x000D;&#x000A;Log2&#x000D;&#x000A;Ln&#x000D;&#x000A;LogN&#x000D;&#x000A;Exp&#x000D;&#x000A;Pow&#x000D;&#x000A;Sqrt&#x000D;&#x000A;NthRoot&#x000D;&#x000A;Tan&#x000D;&#x000A;Sin&#x000D;&#x000A;Cos&#x000D;&#x000A;ATan&#x000D;&#x000A;ASin&#x000D;&#x000A;ACos&#x000D;&#x000A;DegToRad&#x000D;&#x000A;RadToDeg&#x000D;&#x000A;Round&#x000D;&#x000A;Floor&#x000D;&#x000A;Ceiling&#x000D;&#x000A;AbsFloor&#x000D;&#x000A;Mod&#x000D;&#x000A;Div&#x000D;&#x000A;ToInteger&#x000D;&#x000A;ToFloat&#x000D;&#x000A;ToNumber&#x000D;&#x000A;ToString&#x000D;&#x000A;Sign&#x000D;&#x000A;Abs&#x000D;&#x000A;CumNormInv&#x000D;&#x000A;NormalDensity&#x000D;&#x000A;SDTDPrime&#x000D;&#x000A;SDTBeta&#x000D;&#x000A;Order&#x000D;&#x000A;Rank&#x000D;&#x000A;Median&#x000D;&#x000A;Min&#x000D;&#x000A;Max&#x000D;&#x000A;StDev&#x000D;&#x000A;Sum&#x000D;&#x000A;Median&#x000D;&#x000A;Quantile&#x000D;&#x000A;SummaryStats&#x000D;&#x000A;SeedRNG&#x000D;&#x000A;RandomizeTimer&#x000D;&#x000A;Random&#x000D;&#x000A;RandomDiscrete&#x000D;&#x000A;RandomUniform&#x000D;&#x000A;RandomNormal&#x000D;&#x000A;RandomExponential&#x000D;&#x000A;RandomLogistic&#x000D;&#x000A;RandomLogNormal&#x000D;&#x000A;RandomBinomial&#x000D;&#x000A;RandomBernoulli&#x000D;&#x000A;ZoomPoints&#x000D;&#x000A;ReflectPoints&#x000D;&#x000A;RotatePoints&#x000D;&#x000A;GetAngle&#x000D;&#x000A;Dist&#x000D;&#x000A;ToRight&#x000D;&#x000A;GetAngle3&#x000D;&#x000A;SegmentsIntersect&#x000D;&#x000A;NonOverlapLayout&#x000D;&#x000A;LayoutGrid</Keywords>
+            <Keywords name="Keywords3">Print&#x000D;&#x000A;Print_&#x000D;&#x000A;PrintList&#x000D;&#x000A;Format&#x000D;&#x000A;ZeroPad&#x000D;&#x000A;FileOpenRead&#x000D;&#x000A;FileOpenWrite&#x000D;&#x000A;FileOpenOverwrite&#x000D;&#x000A;FileOpenAppend&#x000D;&#x000A;FileClose&#x000D;&#x000A;FilePrint&#x000D;&#x000A;FilePrint_&#x000D;&#x000A;FilePrintList&#x000D;&#x000A;FileReadCharacter&#x000D;&#x000A;FileReadWord&#x000D;&#x000A;FileReadLine&#x000D;&#x000A;FileReadList&#x000D;&#x000A;FileReadTable&#x000D;&#x000A;ReadCSV&#x000D;&#x000A;FileReadText&#x000D;&#x000A;EndOfLine&#x000D;&#x000A;EndOfFile&#x000D;&#x000A;GetDirectoryListing&#x000D;&#x000A;FileExists&#x000D;&#x000A;IsDirectory&#x000D;&#x000A;MakeDirectory&#x000D;&#x000A;RemoveFile&#x000D;&#x000A;AppendFile&#x000D;&#x000A;DeleteFile&#x000D;&#x000A;ConnectToIP&#x000D;&#x000A;ConnectToHost&#x000D;&#x000A;WaitForNetworkConnection&#x000D;&#x000A;CloseNetworkConnection&#x000D;&#x000A;SendData&#x000D;&#x000A;GetData&#x000D;&#x000A;ConvertIPString&#x000D;&#x000A;OpenNetworkListener&#x000D;&#x000A;CheckForNetworkConnection&#x000D;&#x000A;WritePNG&#x000D;&#x000A;GetNumJoysticks&#x000D;&#x000A;OpenJoystick&#x000D;&#x000A;GetNumJoystickAxes&#x000D;&#x000A;GetNumJoystickBalls&#x000D;&#x000A;GetNumJoystickHats&#x000D;&#x000A;GetJoystickAxisState&#x000D;&#x000A;GetJoystickHatState&#x000D;&#x000A;GetJoystick ButtonState&#x000D;&#x000A;GetJoystickBallState&#x000D;&#x000A;OpenCOMPort&#x000D;&#x000A;COMPortGetByte&#x000D;&#x000A;COMPortSendByte&#x000D;&#x000A;OpenPPortMode&#x000D;&#x000A;SetPPortMode&#x000D;&#x000A;SetPPortState&#x000D;&#x000A;GetPPortState</Keywords>
+            <Keywords name="Keywords4">MakeWindow&#x000D;&#x000A;MakeImage&#x000D;&#x000A;MakeLabel&#x000D;&#x000A;MakeTextBox&#x000D;&#x000A;MakeCanvas&#x000D;&#x000A;ResetCanvas&#x000D;&#x000A;EasyLabel&#x000D;&#x000A;EasyTextBox&#x000D;&#x000A;MakeColor&#x000D;&#x000A;MakeColorRGB&#x000D;&#x000A;RGBToHSV&#x000D;&#x000A;MakeFont&#x000D;&#x000A;SetCursorPosition&#x000D;&#x000A;GetCursorPosition&#x000D;&#x000A;SetEditable&#x000D;&#x000A;GetTextBoxCursorFromClick&#x000D;&#x000A;GetText&#x000D;&#x000A;GetInput&#x000D;&#x000A;SetText&#x000D;&#x000A;SetFont&#x000D;&#x000A;Move&#x000D;&#x000A;MoveCorner&#x000D;&#x000A;GetSize&#x000D;&#x000A;AddObject&#x000D;&#x000A;RemoveObject&#x000D;&#x000A;Show&#x000D;&#x000A;Hide&#x000D;&#x000A;ShowCursor&#x000D;&#x000A;GetMouseCursorPosition&#x000D;&#x000A;GetMouseState&#x000D;&#x000A;SetMouseCursorPosition&#x000D;&#x000A;Draw&#x000D;&#x000A;DrawFor&#x000D;&#x000A;Circle&#x000D;&#x000A;Ellipse&#x000D;&#x000A;Square&#x000D;&#x000A;Rectangle&#x000D;&#x000A;Line&#x000D;&#x000A;PrintProperties&#x000D;&#x000A;Polygon&#x000D;&#x000A;Bezier&#x000D;&#x000A;BlockE&#x000D;&#x000A;Plus&#x000D;&#x000A;MakeStarPoints&#x000D;&#x000A;MakeNGonPoints&#x000D;&#x000A;ThickLine&#x000D;&#x000A;MakeAttneave&#x000D;&#x000A;ConvexHull&#x000D;&#x000A;KaneszaSquare&#x000D;&#x000A;KaneszaPolygon&#x000D;&#x000A;Inside&#x000D;&#x000A;SetPixel&#x000D;&#x000A;SetPoint&#x000D;&#x000A;GetPixelColor&#x000D;&#x000A;MakeGabor</Keywords>
+            <Keywords name="Keywords5">LoadSound&#x000D;&#x000A;PlayForeground&#x000D;&#x000A;PlayBackground&#x000D;&#x000A;Stop&#x000D;&#x000A;MakeSineWave&#x000D;&#x000A;MakeAudioInputBuffer&#x000D;&#x000A;SaveAudioToWaveFile&#x000D;&#x000A;GetVocalResponseTime&#x000D;&#x000A;LoadMovie&#x000D;&#x000A;LoadAudioFile&#x000D;&#x000A;PlayMovie&#x000D;&#x000A;StartPlayback&#x000D;&#x000A;PausePlayback</Keywords>
+            <Keywords name="Keywords6">GetTime&#x000D;&#x000A;Wait&#x000D;&#x000A;IsKeyDown&#x000D;&#x000A;IsKeyUp&#x000D;&#x000A;IsAnyKeyDown&#x000D;&#x000A;WaitForKeyDown&#x000D;&#x000A;WaitForAnyKeyDown&#x000D;&#x000A;WaitForKeyUp&#x000D;&#x000A;WaitForAllKeysUp&#x000D;&#x000A;WaitForAnyKeyDownWithTimeout&#x000D;&#x000A;WaitForKeyListDown&#x000D;&#x000A;WaitForKeyPress&#x000D;&#x000A;WaitForAnyKeyPress&#x000D;&#x000A;WaitForKeyRelease&#x000D;&#x000A;WaitForListKeyPress&#x000D;&#x000A;WaitForListKeyPressWithTimeout&#x000D;&#x000A;WaitForMouseButton&#x000D;&#x000A;WaitForMouseClickWithTimeout&#x000D;&#x000A;WaitForClickOnTarget&#x000D;&#x000A;WaitForClickOnTargetWithTimeout&#x000D;&#x000A;WaitForDownClick&#x000D;&#x000A;RegisterEvent&#x000D;&#x000A;StartEventLoop&#x000D;&#x000A;ClearEventLoop&#x000D;&#x000A;SignalFatalError&#x000D;&#x000A;TranslateKeyCode&#x000D;&#x000A;TimeStamp&#x000D;&#x000A;GetPEBLVersion&#x000D;&#x000A;GetSystemType&#x000D;&#x000A;GetVideoModes&#x000D;&#x000A;GetCurrentScreenResolution&#x000D;&#x000A;SystemCall&#x000D;&#x000A;LauchFile&#x000D;&#x000A;GetNIMHDemographics&#x000D;&#x000A;GetSubNum&#x000D;&#x000A;MessageBox&#x000D;&#x000A;GetEasyInput&#x000D;&#x000A;GetEasyChoice&#x000D;&#x000A;CountDown&#x000D;&#x000A;IsAudioOut&#x000D;&#x000A;IsCanvas&#x000D;&#x000A;IsColor&#x000D;&#x000A;IsFileStream&#x000D;&#x000A;IsFloat&#x000D;&#x000A;IsFont&#x000D;&#x000A;IsImage&#x000D;&#x000A;IsInteger&#x000D;&#x000A;IsLabel&#x000D;&#x000A;IsList&#x000D;&#x000A;IsNumber&#x000D;&#x000A;IsTextBox&#x000D;&#x000A;IsText&#x000D;&#x000A;IsShape&#x000D;&#x000A;IsString&#x000D;&#x000A;IsWidget&#x000D;&#x000A;IsWindow</Keywords>
+            <Keywords name="Keywords7">Shuffle&#x000D;&#x000A;ShuffleRepeat&#x000D;&#x000A;ShuffleWithoutAdjacents&#x000D;&#x000A;Repeat&#x000D;&#x000A;RepeatList&#x000D;&#x000A;Sequence&#x000D;&#x000A;ChooseN&#x000D;&#x000A;Sample&#x000D;&#x000A;SampleN&#x000D;&#x000A;SampleNWithReplacement&#x000D;&#x000A;DesignLatinSquare&#x000D;&#x000A;LatinSquare&#x000D;&#x000A;DesignGrecoLatinSquare&#x000D;&#x000A;DesignBalancedSampling&#x000D;&#x000A;DesignFullCounterbalance&#x000D;&#x000A;CrossFactorWithoutDuplicate&#x000D;&#x000A;Rotate&#x000D;&#x000A;FoldList&#x000D;&#x000A;Flatten&#x000D;&#x000A;FlattenN&#x000D;&#x000A;Length&#x000D;&#x000A;First&#x000D;&#x000A;Last&#x000D;&#x000A;Merge&#x000D;&#x000A;Append&#x000D;&#x000A;PushOnEnd&#x000D;&#x000A;List&#x000D;&#x000A;Sort&#x000D;&#x000A;SortBy&#x000D;&#x000A;Nth&#x000D;&#x000A;Subset&#x000D;&#x000A;SetElement&#x000D;&#x000A;Match&#x000D;&#x000A;Filter&#x000D;&#x000A;Levels&#x000D;&#x000A;Rest&#x000D;&#x000A;ExtractListItems&#x000D;&#x000A;IsMember&#x000D;&#x000A;Replace&#x000D;&#x000A;Lookup&#x000D;&#x000A;Transpose&#x000D;&#x000A;SubList&#x000D;&#x000A;RemoveSubset&#x000D;&#x000A;ListToString&#x000D;&#x000A;Insert&#x000D;&#x000A;ListBy</Keywords>
+            <Keywords name="Keywords8">CR&#x000D;&#x000A;Tab&#x000D;&#x000A;Format&#x000D;&#x000A;Enquote&#x000D;&#x000A;Uppercase&#x000D;&#x000A;Lowercase&#x000D;&#x000A;ReplaceChar&#x000D;&#x000A;SplitString&#x000D;&#x000A;StringLength&#x000D;&#x000A;SubString&#x000D;&#x000A;FindInString&#x000D;&#x000A;StripSpace&#x000D;&#x000A;StripQuotes</Keywords>
+            <Keywords name="Delimiters">00&quot; 01 02&quot; 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008000" bgColor="FFFFFF" fontStyle="2" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="000080" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="000080" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="000080" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="000080" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="000080" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000080" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000080" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000080" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="800080" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="004040" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
