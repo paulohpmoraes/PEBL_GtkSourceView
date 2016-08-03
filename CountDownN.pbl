@@ -1,0 +1,23 @@
+##
+##  Countdown from n to 1 with w ms interval.
+##
+define CountDownN(win,n,w)
+{
+  if(not IsWindow(win))
+   { 
+     SignalFatalError("CountDown(win) needs a window to be specified, not [" + win + "]")
+   }
+  bgcol <- win.BGCOLOR
+  rect <- Rectangle(gVideoWidth/2,gVideoHeight/2,gVideoWidth,gVideoHeight,bgcol,1)
+  AddObject(rect,win)  
+  label <- EasyLabel("",gVideoWidth/2,gVideoHeight/2,win,100)
+  labs <- Sequence(n,1,-1)
+  loop(i,labs)
+   {
+     label.text <- i
+     Draw()
+     Wait(w)
+   }
+  RemoveObject(rect,win)
+  RemoveObject(label,win)
+} #- End CountDownN
