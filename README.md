@@ -1,4 +1,4 @@
-PEBL
+PEBL Tools
 ==================
 
 ## PEBL.lang
